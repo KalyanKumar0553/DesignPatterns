@@ -1,4 +1,4 @@
-package com.src.creational;
+package com.src.creational.prototype;
 
 class Customer implements Cloneable{
 	private int id;

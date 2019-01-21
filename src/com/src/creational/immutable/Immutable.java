@@ -1,4 +1,4 @@
-package com.src.creational;
+package com.src.creational.immutable;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package com.src.creational;
+package com.src.creational.singleton;
 
 public class SingleTon implements Cloneable {
 	private static SingleTon instance;

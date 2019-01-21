@@ -1,10 +1,10 @@
-package com.src.creational;
+package com.src.creational.builder;
 
-public class Phone {
+public class Builder {
 	private String name;
 	private int version;
 	private String os;
-	private Phone() {}
+	private Builder() {}
 	public String getName() {
 		return this.name;
 	}
@@ -33,8 +33,8 @@ public class Phone {
 			this.os = os;
 			return this;
 		}
-		public Phone build() {
-			Phone result = new Phone();
+		public Builder build() {
+			Builder result = new Builder();
 			result.name = this.name;
 			result.version = this.version;
 			result.os = this.os;
